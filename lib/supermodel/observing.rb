@@ -1,6 +1,7 @@
 module SuperModel
   module Observing
     extend ActiveSupport::Concern
+    module ActiveModel; module Observing; end; end
     include ActiveModel::Observing
 
     included do
