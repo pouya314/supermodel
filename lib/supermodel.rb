@@ -13,6 +13,7 @@ require "active_support/core_ext/class/attribute"
 require "active_support/json"
 
 require "active_model"
+require 'active_model/serializers'
 
 module SuperModel
   class SuperModelError < StandardError; end
